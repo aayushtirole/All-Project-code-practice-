@@ -47,10 +47,24 @@ html,body{
     height: 300px;
     position: absolute;
     width: 400px;
-    background-color: red;
-    left: 5%;
-    top: 30%;
+    left: 11%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
 
+.text h1{
+    font-size: 95px;
+    font-family: monnument;
+    font-weight: 800;
+    letter-spacing: 8px;
+    line-height: 78px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.small-image{
+    
 }
 
 
