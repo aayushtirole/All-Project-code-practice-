@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('./assets/fonts/MonumentExtended-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('./assets/fonts/MonumentExtended-Ultrabold.otf') format('opentype');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Monument Extended', sans-serif;
+}
+
 *{
     margin: 0%;
     padding: 0%;
@@ -7,11 +23,13 @@
 html,body{
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .main{
     width: 100%;
     height: 100%;
+    
     background-color: hsl(250, 60%, 79%);
     display: flex;
 }
@@ -54,7 +72,7 @@ html,body{
 
 .text h1{
     font-size: 95px;
-    font-family: monnument;
+    font-family: "monument extended";
     font-weight: 800;
     letter-spacing: 8px;
     line-height: 78px;
@@ -64,7 +82,56 @@ html,body{
 }
 
 .small-image{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url(https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -55%;
+    top: -6%;
+    transform-origin: 0% 0%;
     
 }
 
+.vertical-text h1{
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: 'Monument Extended', sans-serif;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+.nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 7%;
+    top: 5%;
+    
+}
+
+.nav img{
+    height: 50px;
+}  
+
+.nav h5{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Monument Extended', sans-serif;
+    
+}
 
