@@ -9,13 +9,20 @@ html, body {
     width: 100%;
 }
 
-#wrapper{
+
+
+
+
+/* #wrapper{
     width: 100vw;
     height: 100vh;
     display: flex;
 }
 
 #left-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 40vw;
     background-color: rgb(255, 255, 255);
@@ -62,7 +69,18 @@ html, body {
     background-position: center;
 }
 
+#left_text{
+    
+    width: 50%;
+    height: 50%;
+    
+}
 
-
+#left_text h1{
+    padding: 10p;
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 900;
+} */
 
 
